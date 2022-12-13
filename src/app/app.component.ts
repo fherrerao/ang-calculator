@@ -7,11 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Calculator';
-  operandA = 0;
-  operandB = 0;
   result = 0;
 
-  add() {
-    this.result = this.operandA + this.operandB;
+  valorResultado(resultado: number) {
+    this.result = resultado;
   }
 }
