@@ -3,5 +3,7 @@
   <app-formulario
     (registroResultado)="valorResultado($event)"
   ></app-formulario>
-  <label for="">Result: {{result}}</label>
+  <app-resultado
+    [resultado] = "resultadoPadre"
+  ></app-resultado>
 </div>
