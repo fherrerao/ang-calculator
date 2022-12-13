@@ -1,0 +1,11 @@
+<form action="">
+    <div class="form-group my-1">
+      <label for="">Operand A</label>
+      <input type="number" class="form-control" [(ngModel)] = "operandA" name="operandA">
+    </div>
+    <div class="form-group my-1">
+      <label for="">Operand B</label>
+      <input type="number" class="form-control" [(ngModel)] = "operandB" name="operandB">
+    </div>
+    <button class="btn btn-primary my-3" (click)="add()">Sum</button>
+</form>
